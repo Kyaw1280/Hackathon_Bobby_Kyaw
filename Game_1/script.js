@@ -1,3 +1,5 @@
+const btn = document.querySelector(".btn");
+
 function guessNumberGame() {
   // Generate a random number between 1 and 100
   const randomNumber = Math.floor(Math.random() * 100) + 1;
@@ -6,10 +8,11 @@ function guessNumberGame() {
 
   // Continue asking until they guess correctly
   do {
-    // Get user input via prompt
+    // Get user input with a prompt
     userGuess = prompt("Guess a number between 1 and 100:");
 
-    // userGuess = userGuess;
+    // Convert to number
+    userGuess = parseInt(userGuess);
     attempts++;
 
     // Check if guess is correct, too high, or too low
@@ -28,4 +31,4 @@ function guessNumberGame() {
 }
 
 // Start the game
-guessNumberGame();
+btn.addEventListener("click", guessNumberGame);
