@@ -1,0 +1,14 @@
+:root {
+    --dark: #222831;
+    --medium-dark: #393e46;
+    --light: #eeeeee;
+    --blue: #00adb5;
+  }
+  body {
+    background-color: var(--dark);
+    color: var(--light);
+  }
+  h1 {
+    text-align: center;
+  }
+  
