@@ -23,3 +23,25 @@ To install and play that game
 - HTML
 - CSS
 - JavaScript
+
+## Process
+- Started by writing some pseudo code to break down the logic.
+- Began by writing the HTML for structure, then write the script.js. 
+- Define the `guessNumberGame`, and wrote the logic inside.
+- Added CSS for styling.
+
+## Wins & Challenges 
+
+### Wins 
+- Learned about prompt and alert methods. 
+- Learned how to work together on a project with git.
+- Learned about CSS variables.
+- Learned more about how to use do while loop.
+
+### Challenges
+- In the beginning of the project, we had a lot of issues with git.
+
+## Future Features
+- Add different difficulty levels for the game.
+- Add sound and motion effects. 
+- Include high score system.
