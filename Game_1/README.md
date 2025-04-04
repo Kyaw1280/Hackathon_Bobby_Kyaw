@@ -27,23 +27,37 @@ To install and play that game
 - JavaScript
 
 ## Process
+
 - Started by writing some pseudo code to break down the logic.
-- Began by writing the HTML for structure, then write the script.js. 
+- Began by writing the HTML for structure, then write the script.js.
 - Define the `guessNumberGame`, and wrote the logic inside.
 - Added CSS for styling.
 
-## Wins & Challenges 
+## Testing
 
-### Wins 
-- Learned about prompt and alert methods. 
+This project use jest testing frame work.
+
+### Running Test
+
+`npm test`
+To install test dependicies
+`npm install --save-dev jest jest-environment-jsdom`
+
+## Wins & Challenges
+
+### Wins
+
+- Learned about prompt and alert methods.
 - Learned how to work together on a project with git.
 - Learned about CSS variables.
 - Learned more about how to use do while loop.
 
 ### Challenges
+
 - In the beginning of the project, we had a lot of issues with git.
 
 ## Future Features
+
 - Add different difficulty levels for the game.
-- Add sound and motion effects. 
+- Add sound and motion effects.
 - Include high score system.
