@@ -5,7 +5,7 @@
   --blue: #00adb5;
 }
 body {
-  background-image: url(./assets/sebastian-dc-F4SxJ7ZtiRM-unsplash.jpg);
+  background-image: url(./assets/background.jpg);
   color: var(--light);
   background-size: cover;
 }
