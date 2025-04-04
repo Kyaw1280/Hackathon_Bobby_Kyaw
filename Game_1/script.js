@@ -1,6 +1,6 @@
-const btn = document.querySelector(".btn");
-
 function guessNumberGame() {
+  //Grab the button reference
+  const btn = document.querySelector(".btn");
   // Generate a random number between 1 and 100
   const randomNumber = Math.floor(Math.random() * 100) + 1;
   let userGuess;
@@ -31,4 +31,9 @@ function guessNumberGame() {
 }
 
 // Start the game
-btn.addEventListener("click", guessNumberGame);
+if (typeof document !== "undefined") {
+  const btn = document.querySelector(".btn");
+  btn.addEventListener("click", guessNumberGame);
+}
+
+module.exports = { guessNumberGame };
