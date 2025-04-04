@@ -1,6 +1,6 @@
 # Number Guessing Game
 
-<img src="./assets/background.jpg" alt="Banner" width="500"/>
+<img src="./assets/game.png" alt="Banner" width="500"/>
 
 Simple browser-based game written in HTML, CSS and JavaScript.
 
